@@ -1,0 +1,13 @@
+/*Link Inicio*/
+.navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, 
+.navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link{color:#fff; font-weight: bolder;}
+
+/*Demais Links*/
+.navbar-light .navbar-nav .nav-link{color:#fff;padding-left: 40px}
+
+/*Conteudo Principal*/
+.teste{border: 1px solid red;}
+
+/*Link Inicio*/
+
+
