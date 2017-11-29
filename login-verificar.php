@@ -4,8 +4,8 @@ session_start();
 	include('conexao.php');
 
 
-	$usuario = $_POST['usuario'];
-	$senha   = $_POST['senha'];
+	$usuario = addslashes ($_POST['usuario']);
+	$senha   = addslashes ($_POST['senha']);
 
 
 	$sql = "SELECT * from usuarios WHERE codigo_usuario = '$usuario' and senha_usuario='$senha' " or die (mysqli_error());
